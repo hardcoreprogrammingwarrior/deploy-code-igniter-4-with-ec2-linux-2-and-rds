@@ -37,6 +37,21 @@ enable CI_ENVIRONMENT = development
 $ sudo chown ec2-user:apache -R writable/  
 ```
 
+**Database configurations.**  
+```sh
+$ vim .env
+enable database.default
+#--------------------------------------------------------------------
+# DATABASE
+#--------------------------------------------------------------------
+
+database.default.hostname = rds.ipaddress.host
+database.default.database = ci4
+database.default.username = root
+database.default.password = root
+database.default.DBDriver = MySQL
+```
+
 **Set the host:**  
 ```sh
 $ sudo vim /etc/httpd/conf/httpd.conf   
