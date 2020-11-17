@@ -61,7 +61,7 @@ $ sudo vim /etc/httpd/conf/httpd.conf
 
 ```blade
 <VirtualHost *:80>  
-	ServerName laravel.example.com  
+	ServerName codeigniter.example.com  
 	DocumentRoot /var/www/html/speedrun/public  
 	<Directory /var/www/html/speedrun>  
 		AllowOverride All  
