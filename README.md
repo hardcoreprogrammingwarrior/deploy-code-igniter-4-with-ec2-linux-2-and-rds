@@ -1,6 +1,6 @@
 
 # How to Speedrun Deploy  CodeIgniter 4 with ec2 Linux 2 and RDS 
-Watch it here   
+Watch it here https://youtu.be/YWBWYPtwdvM  
 CodeIgniter v4.0.4 (PHP v7.4.11) Mysql 8.0  
 Since Nov 17, 2020  
 
