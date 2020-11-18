@@ -57,7 +57,7 @@ database.default.DBDriver = MySQL
 $ sudo vim /etc/httpd/conf/httpd.conf   
 ```
 
-**Add the File bottom**  
+**Add code at the bottom of the file**  
 
 ```blade
 <VirtualHost *:80>  
